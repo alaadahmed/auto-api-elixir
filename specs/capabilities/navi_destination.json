@@ -123,7 +123,7 @@
                 {
                     "data_component": "12044094e40000000000",
                     "value": {
-                        "kilometers": 1337
+                        "kilometers": 1337.0
                     },
                     "description": "Remaining distance to destination is 1337.0km"
                 }
@@ -155,7 +155,7 @@
                 {
                     "data_component": "0701404b800000000000",
                     "value": {
-                        "minutes": 55
+                        "minutes": 55.0
                     },
                     "description": "Required charging time to reach the next destination is 55.0min."
                 }

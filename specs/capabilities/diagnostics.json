@@ -31,7 +31,7 @@
                 {
                     "data_component": "120441024f8000000000",
                     "value": {
-                        "kilometers": 150000
+                        "kilometers": 150000.0
                     },
                     "description": "Odometer is showing 150'000.0km"
                 }
@@ -51,7 +51,7 @@
                     "value": {
                         "celsius": 99.5
                     },
-                    "description": "Engine oil temperature is 99.5°C"
+                    "description": "Engine oil temperature is 99.5\u00b0C"
                 }
             ]
         },
@@ -67,7 +67,7 @@
                 {
                     "data_component": "1601404e000000000000",
                     "value": {
-                        "kilometers_per_hour": 60
+                        "kilometers_per_hour": 60.0
                     },
                     "description": "Vehicle speed is 60.0km/h"
                 }
@@ -85,7 +85,7 @@
                 {
                     "data_component": "030040a3880000000000",
                     "value": {
-                        "revolutions_per_minute": 2500
+                        "revolutions_per_minute": 2500.0
                     },
                     "description": "Engine RPM is 2500.0"
                 }
@@ -118,7 +118,7 @@
                 {
                     "data_component": "12044070900000000000",
                     "value": {
-                        "kilometers": 265
+                        "kilometers": 265.0
                     },
                     "description": "Estimated range is 256.0km"
                 }
@@ -251,9 +251,9 @@
                 {
                     "data_component": "17014034000000000000",
                     "value": {
-                        "celsius": 20
+                        "celsius": 20.0
                     },
-                    "description": "Engine coolant temperature is 20°C"
+                    "description": "Engine coolant temperature is 20\u00b0C"
                 }
             ]
         },
@@ -291,7 +291,7 @@
                 {
                     "data_component": "190240daf0c000000000",
                     "value": {
-                        "liters": 27587
+                        "liters": 27587.0
                     },
                     "description": "The engine has consumend 27'587.0 L of fuel over it's lifespan"
                 }
@@ -353,7 +353,7 @@
                 {
                     "data_component": "16014050400000000000",
                     "value": {
-                        "kilometers_per_hour": 65
+                        "kilometers_per_hour": 65.0
                     },
                     "description": "Wheel based speed is 65.0km/h"
                 }
@@ -388,7 +388,7 @@
                     "values": {
                         "id": 1,
                         "remaining_time": {
-                            "minutes": 105592
+                            "minutes": 105592.0
                         },
                         "text": "Check engine",
                         "status": "Alert"
@@ -495,7 +495,7 @@
                             "celsius": 40.1
                         }
                     },
-                    "description": "Front left tire temperature is 40.1°C"
+                    "description": "Front left tire temperature is 40.1\u00b0C"
                 },
                 {
                     "data_component": "011701404419999999999a",
@@ -505,7 +505,7 @@
                             "celsius": 40.2
                         }
                     },
-                    "description": "Front right tire temperature is 40.2°C"
+                    "description": "Front right tire temperature is 40.2\u00b0C"
                 },
                 {
                     "data_component": "0217014044266666666666",
@@ -515,7 +515,7 @@
                             "celsius": 40.3
                         }
                     },
-                    "description": "Rear right tire temperature is 40.3°C"
+                    "description": "Rear right tire temperature is 40.3\u00b0C"
                 },
                 {
                     "data_component": "0317014044333333333333",
@@ -525,7 +525,7 @@
                             "celsius": 40.4
                         }
                     },
-                    "description": "Rear left tire temperature is 40.4°C"
+                    "description": "Rear left tire temperature is 40.4\u00b0C"
                 },
                 {
                     "data_component": "0417014044400000000000",
@@ -535,7 +535,7 @@
                             "celsius": 40.5
                         }
                     },
-                    "description": "Rear right outer tire temperature is 40.5°C"
+                    "description": "Rear right outer tire temperature is 40.5\u00b0C"
                 },
                 {
                     "data_component": "05170140444ccccccccccd",
@@ -545,7 +545,7 @@
                             "celsius": 40.6
                         }
                     },
-                    "description": "Rear left outer tire temperature is 40.6°C"
+                    "description": "Rear left outer tire temperature is 40.6\u00b0C"
                 },
                 {
                     "data_component": "0617014024666666666666",
@@ -555,7 +555,7 @@
                             "celsius": 10.2
                         }
                     },
-                    "description": "Spare tire temperature is 10.2°C"
+                    "description": "Spare tire temperature is 10.2\u00b0C"
                 }
             ]
         },
@@ -573,7 +573,7 @@
                     "values": {
                         "location": "front_left",
                         "rpm": {
-                            "revolutions_per_minute": 737
+                            "revolutions_per_minute": 737.0
                         }
                     },
                     "description": "Front left wheel is doing 737.0RPM"
@@ -583,7 +583,7 @@
                     "values": {
                         "location": "front_right",
                         "rpm": {
-                            "revolutions_per_minute": 747
+                            "revolutions_per_minute": 747.0
                         }
                     },
                     "description": "Front right wheel is doing 747.0RPM"
@@ -593,7 +593,7 @@
                     "values": {
                         "location": "rear_right",
                         "rpm": {
-                            "revolutions_per_minute": 777
+                            "revolutions_per_minute": 777.0
                         }
                     },
                     "description": "Rear right wheel is doing 777.0RPM"
@@ -603,7 +603,7 @@
                     "values": {
                         "location": "rear_left",
                         "rpm": {
-                            "revolutions_per_minute": 787
+                            "revolutions_per_minute": 787.0
                         }
                     },
                     "description": "Rear left wheel is doing 787.0RPM"
@@ -613,7 +613,7 @@
                     "values": {
                         "location": "rear_right_outer",
                         "rpm": {
-                            "revolutions_per_minute": 797
+                            "revolutions_per_minute": 797.0
                         }
                     },
                     "description": "Rear right outer wheel is doing 797.0RPM"
@@ -623,7 +623,7 @@
                     "values": {
                         "location": "rear_left_outer",
                         "rpm": {
-                            "revolutions_per_minute": 807
+                            "revolutions_per_minute": 807.0
                         }
                     },
                     "description": "Rear left outer wheel is doing 807.0RPM"
@@ -633,7 +633,7 @@
                     "values": {
                         "location": "spare",
                         "rpm": {
-                            "revolutions_per_minute": 0
+                            "revolutions_per_minute": 0.0
                         }
                     },
                     "description": "Spare wheel is doing 0.0RPM"
@@ -689,7 +689,7 @@
                 {
                     "data_component": "120441024f8800000000",
                     "value": {
-                        "kilometers": 150001
+                        "kilometers": 150001.0
                     },
                     "description": "Odometer is showing 150'001km"
                 }
@@ -708,7 +708,7 @@
                 {
                     "data_component": "120440a0040000000000",
                     "value": {
-                        "kilometers": 2050
+                        "kilometers": 2050.0
                     },
                     "description": "Odometer is showing 2050.0km"
                 }
@@ -882,7 +882,7 @@
                 {
                     "data_component": "120440a1720000000000",
                     "value": {
-                        "kilometers": 2233
+                        "kilometers": 2233.0
                     },
                     "description": "Diesel exhaust fluid is empty in 2233.0km"
                 }
@@ -1060,7 +1060,7 @@
                 {
                     "data_component": "12044070900000000000",
                     "value": {
-                        "kilometers": 265
+                        "kilometers": 265.0
                     },
                     "description": "Estimated secondary powertrain`s range is 256.0km"
                 }
@@ -1272,7 +1272,7 @@
                 {
                     "data_component": "0701402e000000000000",
                     "value": {
-                        "minutes": 15
+                        "minutes": 15.0
                     },
                     "description": "The backup battery has 15min remaining."
                 }
@@ -1370,7 +1370,7 @@
                 {
                     "data_component": "0702407f500000000000",
                     "value": {
-                        "hours": 501
+                        "hours": 501.0
                     },
                     "description": "501.0 engine hours until next service"
                 }
@@ -1460,7 +1460,7 @@
                 {
                     "data_component": "12044070900000000000",
                     "value": {
-                        "kilometers": 265
+                        "kilometers": 265.0
                     },
                     "description": "Estimated primary powertrain`s range is 256.0km"
                 }
@@ -1479,7 +1479,7 @@
                 {
                     "data_component": "12044070900000000000",
                     "value": {
-                        "kilometers": 265
+                        "kilometers": 265.0
                     },
                     "description": "Estimated mixed powertrain range is 256.0km"
                 }

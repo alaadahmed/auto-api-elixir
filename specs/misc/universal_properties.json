@@ -334,10 +334,12 @@
                 },
                 {
                     "id": 44,
-                    "name": "maserati",
-                    "name_pretty": "Maserati"
+                    "name": "maserati"
+                },
+                {
+                    "id": 45,
+                    "name": "polestar"
                 }
-
             ],
             "examples": [
                 {
