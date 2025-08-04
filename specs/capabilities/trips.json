@@ -122,8 +122,8 @@
             "examples": [
                 {
                     "data_component": "536b616c69747a65722053747261c39f652036382c203130393937204265726c696e2c204765726d616e79",
-                    "value": "Skalitzer Straße 68, 10997 Berlin, Germany",
-                    "description": "Trip started from Skalitzer Straße 68, 10997 Berlin, Germany"
+                    "value": "Skalitzer Stra\u00dfe 68, 10997 Berlin, Germany",
+                    "description": "Trip started from Skalitzer Stra\u00dfe 68, 10997 Berlin, Germany"
                 }
             ]
         },
@@ -138,8 +138,8 @@
             "examples": [
                 {
                     "data_component": "536b616c69747a65722053747261c39f652036382c203130393937204265726c696e2c204765726d616e79",
-                    "value": "Skalitzer Straße 68, 10997 Berlin, Germany",
-                    "description": "Trip ended at Skalitzer Straße 68, 10997 Berlin, Germany"
+                    "value": "Skalitzer Stra\u00dfe 68, 10997 Berlin, Germany",
+                    "description": "Trip ended at Skalitzer Stra\u00dfe 68, 10997 Berlin, Germany"
                 }
             ]
         },
@@ -194,7 +194,7 @@
                 {
                     "data_component": "120440c4820000000000",
                     "value": {
-                        "kilometers": 10500
+                        "kilometers": 10500.0
                     },
                     "description": "At the start of the trip the odometer was showing 10500.0km"
                 }
@@ -213,7 +213,7 @@
                 {
                     "data_component": "120440c4978000000000",
                     "value": {
-                        "kilometers": 10543
+                        "kilometers": 10543.0
                     },
                     "description": "At the start of the trip the odometer was showing 10543.0km"
                 }
@@ -251,7 +251,7 @@
                 {
                     "data_component": "12044045800000000000",
                     "value": {
-                        "kilometers": 43
+                        "kilometers": 43.0
                     },
                     "description": "Distance of trip was 43.0km"
                 }
@@ -312,9 +312,9 @@
                     "data_component": "050014536b616c69747a65722053747261c39f65203638",
                     "values": {
                         "type": "street",
-                        "value": "Skalitzer Straße 68"
+                        "value": "Skalitzer Stra\u00dfe 68"
                     },
-                    "description": "Street component value is 'Skalitzer Straße 68'"
+                    "description": "Street component value is 'Skalitzer Stra\u00dfe 68'"
                 },
                 {
                     "data_component": "06000b4272616e64656e62757267",
@@ -389,9 +389,9 @@
                     "data_component": "050014536b616c69747a65722053747261c39f65203638",
                     "values": {
                         "type": "street",
-                        "value": "Skalitzer Straße 68"
+                        "value": "Skalitzer Stra\u00dfe 68"
                     },
-                    "description": "Street component value is 'Skalitzer Straße 68'"
+                    "description": "Street component value is 'Skalitzer Stra\u00dfe 68'"
                 },
                 {
                     "data_component": "06000b4272616e64656e62757267",
@@ -499,7 +499,7 @@
                     "data_component": "000000000000000000",
                     "values": {
                         "type": "zero",
-                        "value": 0
+                        "value": 0.0
                     },
                     "description": "Eco driving zero-threshold is set at 0.0"
                 },
@@ -507,7 +507,7 @@
                     "data_component": "010000000000000000",
                     "values": {
                         "type": "one",
-                        "value": 0
+                        "value": 0.0
                     },
                     "description": "Eco driving one-threshold is set at 0.0"
                 }
@@ -667,7 +667,7 @@
                 {
                     "data_component": "0701405ec00000000000",
                     "value": {
-                        "hours": 123
+                        "minutes": 123.0
                     },
                     "description": "Duration of trip was 123.0 minutes."
                 }

@@ -207,7 +207,7 @@
                 {
                     "data_component": "0701404e000000000000",
                     "value": {
-                        "minutes": 60
+                        "minutes": 60.0
                     },
                     "description": "Time to complete charge is 60.0 minutes"
                 }
@@ -301,7 +301,7 @@
                 {
                     "data_component": "09004039000000000000",
                     "value": {
-                        "amperes": 25
+                        "amperes": 25.0
                     },
                     "description": "Maximum charging current is 25.0A"
                 }
@@ -449,7 +449,7 @@
                     "value": {
                         "celsius": 38.4
                     },
-                    "description": "The battery temperature is 38.4°C"
+                    "description": "The battery temperature is 38.4\u00b0C"
                 }
             ]
         },
@@ -617,7 +617,7 @@
                 {
                     "data_component": "14024062c00000000000",
                     "value": {
-                        "kilowatts": 150
+                        "kilowatts": 150.0
                     },
                     "description": "Charging rate is 150.0kW"
                 }
@@ -703,7 +703,7 @@
                 {
                     "data_component": "12044081580000000000",
                     "value": {
-                        "kilometers": 555
+                        "kilometers": 555.0
                     },
                     "description": "Maximum electric range is 555.0km"
                 }
@@ -904,7 +904,7 @@
                 {
                     "data_component": "0c044051800000000000",
                     "value": {
-                        "kilowatt_hours": 70
+                        "kilowatt_hours": 70.0
                     },
                     "description": "Battery capacity is 70.0kWh"
                 }
@@ -923,7 +923,7 @@
                 {
                     "data_component": "1402405e000000000000",
                     "value": {
-                        "kilowatts": 120
+                        "kilowatts": 120.0
                     },
                     "description": "Auxiliary power is 120.0kW."
                 }
@@ -958,7 +958,7 @@
                 {
                     "data_component": "0c044058c00000000000",
                     "value": {
-                        "kilowatt_hours": 99
+                        "kilowatt_hours": 99.0
                     },
                     "description": "Maximum available battery capacity is 99.0kWh"
                 }
@@ -1223,7 +1223,7 @@
                 {
                     "data_component": "09004059000000000000",
                     "value": {
-                        "amperes": 100
+                        "amperes": 100.0
                     },
                     "description": "Charging current limit is 100.0A."
                 }
@@ -1340,7 +1340,7 @@
                 {
                     "data_component": "09004014000000000000",
                     "value": {
-                        "amperes": 5
+                        "amperes": 5.0
                     },
                     "description": "Minimum charging current is 5.0A."
                 }
@@ -1359,7 +1359,7 @@
                 {
                     "data_component": "12044072c00000000000",
                     "value": {
-                        "kilometers": 300
+                        "kilometers": 300.0
                     },
                     "description": "Remaining electric range target is 300.0km."
                 }
@@ -1419,7 +1419,7 @@
                 {
                     "data_component": "0701405b800000000000",
                     "value": {
-                        "minutes": 110
+                        "minutes": 110.0
                     },
                     "description": "Preconditioning is completed in 110.0min."
                 }
@@ -1438,7 +1438,7 @@
                 {
                     "data_component": "0a00405e000000000000",
                     "value": {
-                        "volts": 120
+                        "volts": 120.0
                     },
                     "description": "HV battery voltage is 120.0V."
                 }
@@ -1462,7 +1462,7 @@
                     "values": {
                         "extreme": "highest",
                         "temperature": {
-                            "celsius": 85
+                            "celsius": 85.0
                         }
                     },
                     "description": "Battery highest temperature is 85.0C."
@@ -1694,7 +1694,7 @@
                     "values": {
                         "extreme": "highest",
                         "temperature": {
-                            "celsius": 85
+                            "celsius": 85.0
                         }
                     },
                     "description": "Battery highest temperature is 85.0C."
@@ -2058,7 +2058,7 @@
                 {
                     "data_component": "1402405e000000000000",
                     "value": {
-                        "kilowatts": 120
+                        "kilowatts": 120.0
                     },
                     "description": "Charger power is 120.0kW."
                 }
@@ -2093,10 +2093,10 @@
                     "data_component": "12044062c0000000000007023ff0000000000000",
                     "values": {
                         "distance": {
-                            "kilometers": 150
+                            "kilometers": 150.0
                         },
                         "time": {
-                            "hours": 1
+                            "hours": 1.0
                         }
                     },
                     "description": "Range increases by 150.0km in 1.0h."
@@ -2191,6 +2191,22 @@
                     "data_component": "01",
                     "value": "charging_to_departure_time_finished",
                     "description": "Charging scenario is 'charging_to_departure_time_finished'."
+                }
+            ]
+        },
+        {
+            "id": 80,
+            "name": "state_of_health",
+            "name_cased": "stateOfHealth",
+            "name_pretty": "State of health",
+            "added": 13,
+            "type": "types.percentage",
+            "description": "State of health of the high-voltage battery (can be greater than 1.0 due to production variance).",
+            "examples": [
+                {
+                    "data_component": "3feccccccccccccd",
+                    "value": 0.9,
+                    "description": "State of health of the high-voltage battery is 90%."
                 }
             ]
         }
