@@ -672,6 +672,25 @@
                     "description": "Duration of trip was 123.0 minutes."
                 }
             ]
+        },
+        {
+            "id": 26,
+            "name": "average_electric_consumption",
+            "name_cased": "averageElectricConsumption",
+            "name_pretty": "Average electric consumption",
+            "added": 13,
+            "type": "unit.energy_efficiency",
+            "size": 10,
+            "description": "Average electric consumption during the trip",
+            "examples": [
+                {
+                    "data_component": "0d00401d5c28f5c28f5c",
+                    "value": {
+                        "kilometers_per_kwh": 7.34
+                    },
+                    "description": "Average electric consumption during the trip was 7.34 km/kWh."
+                }
+            ]
         }
     ]
 }

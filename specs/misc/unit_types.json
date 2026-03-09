@@ -185,6 +185,21 @@
                     "name": "miles_per_kwh",
                     "id": 1,
                     "conversion_inverse": 62.1371192237334
+                },
+                {
+                    "name": "kilometers_per_kwh",
+                    "id": 2,
+                    "conversion_inverse": 100.0
+                },
+                {
+                    "name": "miles_per_gallon_equivalent",
+                    "id": 3,
+                    "conversion_inverse": 2094.331603
+                },
+                {
+                    "name": "miles_per_imperial_gallon_equivalent",
+                    "id": 4,
+                    "conversion_inverse": 2515.187
                 }
             ]
         },
@@ -252,6 +267,11 @@
                     "name": "miles_per_gallon",
                     "id": 2,
                     "conversion_inverse": 235.2145833
+                },
+                {
+                    "name": "kilometers_per_liter",
+                    "id": 3,
+                    "conversion_inverse": 100.0
                 }
             ]
         },

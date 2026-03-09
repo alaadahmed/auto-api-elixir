@@ -2363,6 +2363,30 @@
                         {
                             "id": 197,
                             "name": "engine_drag_torque_control_failure"
+                        },
+                        {
+                            "id": 198,
+                            "name": "high_beam_left_failure"
+                        },
+                        {
+                            "id": 199,
+                            "name": "high_beam_right_failure"
+                        },
+                        {
+                            "id": 200,
+                            "name": "daytime_running_light_left_failure"
+                        },
+                        {
+                            "id": 201,
+                            "name": "daytime_running_light_right_failure"
+                        },
+                        {
+                            "id": 202,
+                            "name": "side_mark_lights_failure"
+                        },
+                        {
+                            "id": 203,
+                            "name": "licence_plate_light_failure"
                         }
                     ]
                 },
@@ -2785,6 +2809,84 @@
             ]
         },
         {
+            "name": "energy_consumption",
+            "name_cased": "energyConsumption",
+            "name_pretty": "Energy consumption",
+            "type": "custom",
+            "size": 11,
+            "items": [
+                {
+                    "name": "category",
+                    "name_cased": "category",
+                    "type": "enum",
+                    "size": 1,
+                    "enum_values": [
+                        {
+                            "id": 0,
+                            "name": "other"
+                        },
+                        {
+                            "id": 1,
+                            "name": "driving"
+                        },
+                        {
+                            "id": 2,
+                            "name": "climate"
+                        },
+                        {
+                            "id": 3,
+                            "name": "battery"
+                        }
+                    ]
+                },
+                {
+                    "name": "consumption",
+                    "name_cased": "consumption",
+                    "type": "unit.energy",
+                    "size": 10,
+                    "description": "Energy consumption in the given category"
+                }
+            ]
+        },
+        {
+            "name": "energy_consumption_percentage",
+            "name_cased": "energyConsumptionPercentage",
+            "name_pretty": "Energy consumption percentage",
+            "type": "custom",
+            "size": 9,
+            "items": [
+                {
+                    "name": "category",
+                    "name_cased": "category",
+                    "type": "enum",
+                    "size": 1,
+                    "enum_values": [
+                        {
+                            "id": 0,
+                            "name": "other"
+                        },
+                        {
+                            "id": 1,
+                            "name": "driving"
+                        },
+                        {
+                            "id": 2,
+                            "name": "climate"
+                        },
+                        {
+                            "id": 3,
+                            "name": "battery"
+                        }
+                    ]
+                },
+                {
+                    "name": "percentage",
+                    "name_cased": "percentage",
+                    "type": "types.percentage"
+                }
+            ]
+        },
+        {
             "name": "failure",
             "name_cased": "failure",
             "name_pretty": "Failure",
@@ -3141,6 +3243,63 @@
                         {
                             "id": 1,
                             "name": "fastened"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "service_warning",
+            "name_cased": "serviceWarning",
+            "name_pretty": "Service warning",
+            "type": "custom",
+            "size": 2,
+            "items": [
+                {
+                    "name": "due",
+                    "name_cased": "due",
+                    "type": "enum",
+                    "size": 1,
+                    "enum_values": [
+                        {
+                            "id": 0,
+                            "name": "no_service_required"
+                        },
+                        {
+                            "id": 1,
+                            "name": "almost"
+                        },
+                        {
+                            "id": 2,
+                            "name": "due"
+                        },
+                        {
+                            "id": 3,
+                            "name": "overdue"
+                        }
+                    ]
+                },
+                {
+                    "name": "reason",
+                    "name_cased": "reason",
+                    "type": "enum",
+                    "size": 1,
+                    "enum_values": [
+                        {
+                            "id": 0,
+                            "name": "unknown"
+                        },
+                        {
+                            "id": 1,
+                            "name": "regular_maintenance"
+                        },
+                        {
+                            "id": 2,
+                            "name": "engine_hours"
+                        },
+                        {
+                            "id": 3,
+                            "name": "distance_driven"
                         }
                     ]
                 }

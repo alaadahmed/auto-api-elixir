@@ -10,7 +10,7 @@
     },
     "api": {
         "intro": 2,
-        "update": 12
+        "update": 13
     },
     "getters": {},
     "setters": [
@@ -680,6 +680,11 @@
                     "id": 1,
                     "name": "direct_current",
                     "name_pretty": "DC"
+                },
+                {
+                    "id": 2,
+                    "name": "wireless",
+                    "name_pretty": "Wireless"
                 }
             ],
             "examples": [
@@ -1855,6 +1860,18 @@
                 {
                     "id": 5,
                     "name": "active"
+                },
+                {
+                    "id": 6,
+                    "name": "initialising"
+                },
+                {
+                    "id": 7,
+                    "name": "fault"
+                },
+                {
+                    "id": 8,
+                    "name": "inactive"
                 }
             ],
             "examples": [
@@ -2207,6 +2224,44 @@
                     "data_component": "3feccccccccccccd",
                     "value": 0.9,
                     "description": "State of health of the high-voltage battery is 90%."
+                }
+            ]
+        },
+        {
+            "id": 81,
+            "name": "distance_since_charging",
+            "name_cased": "distanceSinceCharging",
+            "name_pretty": "Distance since charging",
+            "added": 13,
+            "type": "unit.length",
+            "size": 10,
+            "description": "The distance driven since the last charging session",
+            "examples": [
+                {
+                    "data_component": "12044028cccccccccccd",
+                    "value": {
+                        "kilometers": 12.4
+                    },
+                    "description": "12.4km driven since the last charging session"
+                }
+            ]
+        },
+        {
+            "id": 82,
+            "name": "charging_voltage",
+            "name_cased": "chargingVoltage",
+            "name_pretty": "Charging voltage",
+            "added": 13,
+            "type": "unit.electric_potential_difference",
+            "size": 10,
+            "description": "Charging electric voltage.",
+            "examples": [
+                {
+                    "data_component": "0a004079000000000000",
+                    "value": {
+                        "volts": 400.0
+                    },
+                    "description": "Charging voltage is 400.0V."
                 }
             ]
         }
