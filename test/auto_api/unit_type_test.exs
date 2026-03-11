@@ -127,7 +127,7 @@ defmodule AutoApi.UnitTypeStateTest do
       assert List.first(units) == :joules
 
       assert units = UnitType.units(:energy_efficiency)
-      assert length(units) == 2
+      assert length(units) == 5
       assert List.first(units) == :kwh_per_100_kilometers
 
       assert units = UnitType.units(:frequency)
@@ -135,7 +135,7 @@ defmodule AutoApi.UnitTypeStateTest do
       assert List.first(units) == :hertz
 
       assert units = UnitType.units(:fuel_efficiency)
-      assert length(units) == 3
+      assert length(units) == 4
       assert List.first(units) == :liters_per_100_kilometers
 
       assert units = UnitType.units(:illuminance)
