@@ -32,7 +32,7 @@ defmodule AutoApi.MaintenanceCapability do
       iex> M.description
       "Maintenance"
       iex> length(M.properties)
-      40
+      44
       iex> List.first(M.properties)
       {0x01, :days_to_next_service}
   """
